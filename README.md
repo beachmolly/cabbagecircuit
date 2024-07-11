@@ -16,6 +16,72 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
+## File Structure
+
+```
+cabbagecircuit/
+├── .expo/
+│   ├── types/
+│   │   └── router.d.ts
+│   ├── web/
+│   │   └── cache/
+│   │       └── production/
+│   │           └── images/
+│   │                └── favicon-48.png
+│   ├── devices.json
+│   ├── README.md
+│   └── settings.json
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx
+│   │   ├── explore.tsx
+│   │   ├── index.tsx
+│   │   └── profile.tsx
+│   ├── _layout.tsx
+│   ├── +html.tsx
+│   └── +not-found.tsx
+├── assets/
+│   ├── fonts/
+│   │   └── SpaceMono-Regular.ttf
+│   └── images/
+│       ├── adaptive-icon.png
+│       ├── favicon.png
+│       ├── icon.png
+│       ├── partial-react-logo.png
+│       ├── react-logo.png
+│       ├── react-logo@2x.png
+│       ├── react-logo@3x.png
+│       └── splash.png
+├── components/
+│   ├── __tests__/
+│   │   └── __snapshots__/
+│   │       └── ThemedText-test.tsx.snap
+│   ├── navigation/
+│   │   └── TabBarIcon.tsx
+│   ├── Collapsible.tsx
+│   ├── ExternalLink.tsx
+│   ├── HelloWave.tsx
+│   ├── ParallaxScrollView.tsx
+│   ├── ThemedText.tsx
+│   └── ThemedView.tsx
+│   ├── constants/
+│   │   └── Colors.ts
+│   └── hooks/
+│       ├── useColorScheme.ts
+│       ├── useColorScheme.web.ts
+│       └── useThemeColor.ts
+├── node_modules/
+├── scripts/
+├── .gitignore
+├── app.json
+├── babel.config.js
+├── expo-env.d.ts
+├── package-lock.json
+├── package.json
+├── README.md
+└── tsconfig.json
+```
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
