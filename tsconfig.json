@@ -4,9 +4,7 @@
     "strict": true,
     "sourceMap": true, // Enable source maps
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
