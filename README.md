@@ -1,22 +1,35 @@
-# Welcome to your Expo app 👋
+# CabbageCircuit
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**CabbageCircuit** is a React Native application that uses parallax scrolling for visually rich user interfaces. It features animated header images that adjust based on the scroll position, with different background colors for light and dark modes. Users can explore content with smooth animations and dynamic effects, making it an interactive and immersive UI.
 
-## Get started
+This app is built with the power of **react-native-reanimated** and **Expo** to create smooth parallax scrolling effects that adjust to the scroll position, creating an engaging experience.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## Features
+- **Parallax Scrolling**: Animated header image that moves and scales as users scroll down the screen.
+- **Themed Backgrounds**: Automatic adjustment of header backgrounds based on system color scheme (light/dark mode).
+- **Responsive Design**: Optimized for both mobile and tablet devices.
+- **Smooth Animations**: Using `react-native-reanimated` for interactive UI components.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## Tech Stack
+
+### **Frontend**:
+- **React Native**: For building native mobile apps using JavaScript and React.
+- **React Navigation**: For routing and navigation between different screens.
+- **Expo**: A framework and platform for universal React applications.
+- **react-native-reanimated**: A library for creating smooth animations and transitions.
+- **react-native-safe-area-context**: Provides support for safe area insets on devices with notches or rounded corners.
+- **TypeScript**: For type safety and better development experience.
+- **Jest**: For testing React components and logic.
+
+---
 
 ## File Structure
+
+The following is the file structure of the **CabbageCircuit** application:
 
 ```
 cabbagecircuit/
@@ -82,31 +95,27 @@ cabbagecircuit/
 └── tsconfig.json
 ```
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Installation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/cabbagecircuit.git
+   cd cabbagecircuit
+   ```
+2. **Install dependencies:**:
+   ```bash
+   yarn install
+   # or
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   yarn start
+   # or
+   npm start
+   ```
 
 ## Join the community
 
